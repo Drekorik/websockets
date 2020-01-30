@@ -9,7 +9,7 @@ function setConnected(connected) {
 }
 
 function connect() {
-  const socket = new WebSocket('http://localhost:8080/features-app');
+  const socket = new WebSocket('ws://localhost:8080/features-app');
   stompClient = Stomp.over(socket);
   stompClient.connect({}, frame => {
     setConnected(true);
