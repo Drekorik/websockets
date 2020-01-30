@@ -41,7 +41,7 @@ public class WebSocketTest {
   public void setup() {
     int port = 8080;
     completableFuture = new CompletableFuture<>();
-    URL = "ws://localhost:" + port + "/features-app";
+    URL = "ws://localhost:" + port + "/features-app/";
   }
 
   @Test
