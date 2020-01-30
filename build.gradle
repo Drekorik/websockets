@@ -13,6 +13,9 @@ plugins {
     id 'io.spring.dependency-management' version '1.0.9.RELEASE'
 }
 
+springBoot {
+    mainClass = "app.Application"
+}
 group 'websocket'
 version '1.0'
 
