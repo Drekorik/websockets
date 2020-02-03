@@ -1,4 +1,4 @@
-package dto;
+package org.websockets.dto;
 
 public class MessageInTheBottle {
 

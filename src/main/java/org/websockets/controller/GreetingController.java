@@ -1,7 +1,7 @@
-package controller;
+package org.websockets.controller;
 
 
-import dto.MessageInTheBottle;
+import org.websockets.dto.MessageInTheBottle;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.messaging.handler.annotation.SendTo;

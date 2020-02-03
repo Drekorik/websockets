@@ -14,12 +14,13 @@ plugins {
 }
 
 springBoot {
-    mainClass = "app.Application"
+    mainClass = "org.wescokets.app.Application"
 }
 group 'websocket'
 version '1.0'
 
 sourceCompatibility = 1.8
+targetCompatibility = 1.8
 
 repositories {
     mavenCentral()
